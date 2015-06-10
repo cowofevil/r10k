@@ -11,7 +11,6 @@ HOSTS:
   ubuntu-1204-agent:
     roles:
       - agent
-      - frictionless
     platform: ubuntu-12.04-amd64
     template: Delivery/Quality Assurance/Templates/vCloud/ubuntu-1204-x86_64
     hypervisor: vcloud

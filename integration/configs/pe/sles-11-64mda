@@ -11,7 +11,6 @@ HOSTS:
   sles-11-x86_64-agent:
     roles:
       - agent
-      - frictionless
     platform: sles-11-x86_64
     template: Delivery/Quality Assurance/Templates/vCloud/sles-11-x86_64
     hypervisor: vcloud

@@ -11,7 +11,6 @@ HOSTS:
   debian-7-amd64-agent:
     roles:
       - agent
-      - frictionless
     platform: debian-7-amd64
     template: Delivery/Quality Assurance/Templates/vCloud/debian-7-x86_64
     hypervisor: vcloud
